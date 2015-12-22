@@ -1,0 +1,20 @@
+# Site settings
+title: OSIAM
+email: info@osiam.org
+description: Open Source Identity and Access Management
+twitter_username: osiamMIT
+github_username:  osiam
+
+baseurl: ""
+url: "http://osiam.github.io"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Build settings
+markdown: kramdown
+exclude: [ Gemfile*, README.md, LICENSE ]
