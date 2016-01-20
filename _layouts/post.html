@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<p><a href="{{ site.baseurl }}/">BACK</a></p>
+<header>
+  <h1>{{ page.title }}</h1>
+  <p>
+    <strong>{{ page.date | date: "%Y-%m-%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</strong>
+  </p>
+</header>
+
+<article>
+  {{ content }}
+</article>
+
