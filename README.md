@@ -18,6 +18,12 @@ Then you can start a local web server to preview your changes:
 bundle exec jekyll serve
 ```
 
+To additionally render drafts, add `--drafts` to the command:
+
+```
+bundle exec jekyll serve --drafts
+```
+
 You can now visit a preview of the website under `http://0.0.0.0:4000/`.
 
 Refer to the documentation of [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/)
