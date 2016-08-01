@@ -40,7 +40,16 @@ Please update your applications to use `getMe` instead of the aforementioned met
 
 ## Filtering Resource Attributes
 
-TODO: Write me!
+OSIAM 3.0 makes it possible to filter the attributes of the returned resources. To enable this
+feature in the connector the methods `getUser()`, `getAllUsers()`, `getMe()`, `getGroup()` and
+`getAllGroups()` now take the attributes requested as optional final String varargs in their
+parameter list.
+
+Retrieving a list of all `User` resources with only their userName and their creation date can be realized as follows:
+    
+```java
+    List<User> users = osiamConnector.getAllUsers(accessToken, "userName", "meta.created");
+```
 
 ## SCIM Changes
 
