@@ -14,9 +14,9 @@ The artifacts have been deployed to Maven central.
 We recommend consuming them with Maven, Gradle or any other build tool supporting the Maven repositories.
 You can also download the JAR files using one of the following links:
 
-[connector4java-1.9.jar](https://github.com/osiam/connector4java/releases/download/1.9/connector4java-1.9.jar)
+[connector4java-1.9.jar](https://dl.bintray.com/osiam/OSIAM/org/osiam/connector4java/1.9/connector4java-1.9.jar)
 ([Artifact Details](http://search.maven.org/#artifactdetails%7Corg.osiam%7Cconnector4java%7C1.9%7Cjar))
-([GPG Signature](https://github.com/osiam/connector4java/releases/download/1.9/connector4java-1.9.jar.asc))
+([GPG Signature](https://dl.bintray.com/osiam/OSIAM/org/osiam/connector4java/1.9/connector4java-1.9.jar.asc))
 
 The following is an overview of the most important changes.
 See the full changelog at the [Connector4Java 1.9 release page on GitHub](https://github.com/osiam/connector4java/releases/tag/1.9).
