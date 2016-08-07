@@ -46,7 +46,7 @@ To enable this feature in the connector the methods `getUser()`, `getAllUsers()`
 Retrieving a list of all `User` resources with only their userName and their creation date can be realized as follows:
     
 ```java
-    List<User> users = osiamConnector.getAllUsers(accessToken, "userName", "meta.created");
+List<User> users = osiamConnector.getAllUsers(accessToken, "userName", "meta.created");
 ```
 
 ## SCIM Changes
